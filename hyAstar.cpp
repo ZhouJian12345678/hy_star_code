@@ -508,7 +508,7 @@ bool Astar_isCollisionFree(const std::vector<std::vector<int>>& matrix, const Ve
     return true;
 }
 
-// 在A*中加入 障碍物的碰撞检测，要考虑到车辆的box，用点障碍物去做
+// 在A*中加入 障碍物的碰撞检测，要考虑到车辆的box，用点和线障碍物去做
 
 // 7. 混合a＊ （考虑车辆运动学等）
 
